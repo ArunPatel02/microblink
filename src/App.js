@@ -10,7 +10,7 @@ function App() {
   React.useEffect(() => {
     applyPolyfills().then(() => {
       defineCustomElements().then(() => {
-        el.current.licenseKey = "sRwCAAlsb2NhbGhvc3QGbGV5SkRjbVZoZEdWa1QyNGlPakUzTXpZeU5EUTBNemsxTlRJc0lrTnlaV0YwWldSR2IzSWlPaUpqTTJaaE4yUXhZUzB5WVdFd0xUUXpNamN0WWpWa015MDJNelUzT0dFd01UZ3laamNpZlE9PR6roEjYNQj+4yLGt4u0s3zz5JMJpemUoBmV2m9smhxdxVOqBYkZy9VJ7jlvCSwVRgKHnyKHI7B6JTv2KiRgnrPMLr9O9mmWV3cMzv0b7Rw5Rp2XbZM0P3wAvwW0UNSuGS0BLOf/euDvyjtwGiMy1D7qgfk=";
+        el.current.licenseKey = "sRwCABJuZm9zY2FuLnZlcmNlbC5hcHAGbGV5SkRjbVZoZEdWa1QyNGlPakUzTXpneU5qUXlNelEwTkRJc0lrTnlaV0YwWldSR2IzSWlPaUk1WldRMU56VmpOQzFoTnpNeUxUUTBaVEV0WWpsbFpTMW1ZMkk1TURZd09HTmhaRGNpZlE9PYpQpPco/g+uTCr68cMeqKjcFtpLOrg1EXMDYN0QByjVoCS7qOCxqMMLHNzcmyHFKMTB7/XuLUVlpGXq53uCqhjYUd9ari3YH4ACBBdMxVp8RD+zxGhZw37b27rJ3pYvPp68fJxUtfUNjYL3yVzGrVGA1GM=";
         el.current.recognizers = ["BlinkIdSingleSideRecognizer"];
 
         // Engine location depends on the actual location of WebAssembly resources
